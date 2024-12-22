@@ -2,6 +2,17 @@ body{
     background-color: #fff;
     top:10%;
 }
+.re{
+    position: absolute;
+    top: 0;
+    text-align:center;
+    font-family: 'Marvel';
+    font-size:85px;
+    background-image: linear-gradient(to right, rgb(45, 22, 100) 30%, rgb(181, 14, 14) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #clockContainer{  
     position: relative;
     margin: auto;
