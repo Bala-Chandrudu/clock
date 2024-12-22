@@ -1,0 +1,43 @@
+body{
+    background-color: #fff;
+    top:10%;
+}
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    margin-top:7%;
+    background-color: #081b29;
+    height: 40vw;
+    width: 40vw; 
+    background: url('https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.clipartbest.com%2Fcliparts%2Fbcy%2F6qL%2Fbcy6qLroi.gif&sp=1734868183Taeddb46ccf3d18080f1c5128fdaba84dfe18fdf3de5cf65644059b3d5411326f') no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
